@@ -1,0 +1,171 @@
+# INFO: Use the permission name of enchantments if you want to add them to this file (ie damageartifact, not damage_artifact)
+#        如果要将附魔添加到此文件中，请使用附魔的权限名称  
+
+curse-color: '&c'
+normal-color: '&7'
+description-color: '&8'
+no-conflicts: '&c没有冲突'
+artifact-color: '&e'
+spell-color: '&9'
+not-curse-color: '&7'
+missing-requirements-format: <strikethrough>
+special-color: '&d'
+no-targets: '&c无法应用'
+enchantments:
+  impaling:
+    name: 穿刺
+    description: 三叉戟对海怪的伤害更高.
+  thorns:
+    name: 荆棘
+    description: 反射一些伤害.
+  smite:
+    name: 亡灵杀手
+    description: 增加对亡灵生物的伤害.
+  unbreaking:
+    name: 耐久
+    description: 增加物品耐久.
+  feather_falling:
+    name: 摔落保护
+    description: 减少摔落伤害.
+  respiration:
+    name: 水下呼吸
+    description: 增加水下呼吸时长.
+  projectile_protection:
+    name: 弹射物保护
+    description: 减少弹射物造成的伤害.
+  knockback:
+    name: 击退
+    description: 将敌人击退!
+  fire_aspect:
+    name: 火焰附加
+    description: 让敌人着火.
+  luck_of_the_sea:
+    name: 海之眷顾
+    description: 钓鱼能钓到更好的东西.
+  channeling:
+    name: 引雷
+    description: 在三叉戟落点让闪电劈一下.
+  sharpness:
+    name: 锋利
+    description: 增加伤害.
+  bane_of_arthropods:
+    name: 节肢杀手
+    description: 增加对节肢动物的伤害.
+  efficiency:
+    name: 效率
+    description: 增加挖东西效率.
+  soul_speed:
+    name: 灵魂疾行
+    description: 让你在灵魂土/沙上健步如飞.
+  loyalty:
+    name: 忠诚
+    description: 三叉戟丢出去会飞回来.
+  silk_touch:
+    name: 精准采集
+    description: 挖啥掉啥.
+  quick_charge:
+    name: 快速装填
+    description: 减少十字弩装填时间.
+  aqua_affinity:
+    name: 水下速掘
+    description: 增加水下挖掘速度.
+  multishot:
+    name: 多重射击
+    description: 射死他们!!!
+  blast_protection:
+    name: 爆炸保护
+    description: 减少爆炸伤害.
+  sweeping:
+    name: 横扫之刃
+    description: 增加横扫范围.
+  piercing:
+    name: 穿透
+    description: 箭矢能穿过多个生物.
+  fire_protection:
+    name: 火焰保护
+    description: 减少火焰伤害及持续时间.
+  swift_sneak:
+    name: Swift Sneak
+    description: 蹲着走更快.
+  mending:
+    name: 经验修补
+    description: 用经验修东西.
+  protection:
+    name: 保护
+    description: 减少伤害.
+  lure:
+    name: 饵钓
+    description: 钓鱼效率更高.
+  punch:
+    name: 冲击
+    description: 用箭矢把敌人打的更远.
+  frost_walker:
+    name: 冰霜行者
+    description: 点水成冰.
+  power:
+    name: 力量
+    description: 增加箭矢伤害.
+  riptide:
+    name: 激流
+    description: 激流.
+  fortune:
+    name: 时运
+    description: 挖矿爆率更多.
+  looting:
+    name: 抢夺
+    description: 有几率抢走怪物的东西.
+  binding_curse:
+    name: 绑定诅咒
+    description: 你丢不掉我了嗨害嗨.
+  depth_strider:
+    name: 深海探索者
+    description: 在水下走得更快.
+  vanishing_curse:
+    name: 消失诅咒
+    description: 你死了我就消失了嗨害嗨.
+  infinity:
+    name: 无限
+    description: 一支箭矢能打亿次.
+  flame:
+    name: 火矢
+    description: 箭矢带火.
+above-max-level-color: <gradient:#1D976C:#93F9B9>
+messages:
+  prefix: '&f[&aEcoEnchants&f] '
+  skip-removed: '&c成功移除 &f对物品的描述!'
+  link-to-locale: 'The locale has been successfully exported! Your token is: %token%'
+  gave-random-book: '&f给予 %enchantment% 附魔书!'
+  disabled-descriptions: '&f你成功地 &c禁用了 &f附魔的说明!'
+  cannot-afford-type: '&c你付不起！ &f需要: &a%cost% %type%'
+  outdated: '&aEcoEnchants &f版本已过期! 当前版本 &e%ver%&f, 最新版本 &e%newver%&f. 新版本地址 &a&lhttps://www.spigotmc.org/resources/ecoenchants.79573/'
+  must-hold-item: '&c你必须拿着一个可附魔的物品！'
+  export-failed: '&c导出失败. 请重试!'
+  enabled-descriptions: '&f你成功地 &a启用了 &f附魔的说明!'
+  on-cooldown: '&f这个主动技能还在冷却之中! 请等待 &a%seconds% 秒&f 再一次使用 &a%name%&f 技能.'
+  descriptions-disabled: '&c这条附魔的说明被禁用了.'
+  no-enchants-available: '&f这玩意没有可用的附魔!'
+  invalid-locale: '&c去看看wiki罢.'
+  enchantinfo: |
+    %name%: &r%description%
+    &9最高等级: &r%maxlevel%
+    &9可以应用于: &r%target%
+    &9冲突附魔: &r%conflicts%
+  got-special: 你获得了一个 &d特殊 &f附魔!
+  missing-enchant: '&c你必须指定一个附魔!'
+  reloaded: 重载成功!
+  downloaded-locale: Locale downloaded! Reload config to enact changes.
+  skip-added: '&a成功增加 &f对物品的描述!'
+  must-hold-item-other: '&c玩家没有拿着一个需要附魔的物品！'
+  received-random-book: '&f你收到了一本 %enchantment% 附魔书！'
+  applied-random-enchant: '&f已添加 %enchantment% 到你的物品上'
+  not-player: '&c这个指令只能由玩家执行！'
+  invalid-command: '&c未知子命令。'
+  cannot-transmit: '&c不行!达咩!'
+  not-found: '&c无法找到该附魔: &f%name%.'
+  no-permission: '&c你没有权限这么做!'
+  requires-player: '&c需要一个有效玩家！'
+  specify-locale-subcommand: '&c您必须指定导出还是下载区域设置！'
+  used-spell: '&f触发了 &a%name%&f 技能!'
+  invalid-player: '&c未知玩家！'
+special-particle-color: '#FF69B4'
+

@@ -1,0 +1,29 @@
+#
+# Autosell EcoEnchant
+#
+
+name: "自动出售"
+description: "掉落的物品会自动出售给商店"
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: legendary
+
+general-config:
+  flags: []
+  targets:
+    - pickaxe
+    - axe
+  grindstoneable: true
+  disabled-in-worlds: []
+  requirements:
+    list: []
+    not-met-lore: []
+  conflicts:
+    - silk_touch
+
+config:
+  # No config is available for this enchantment

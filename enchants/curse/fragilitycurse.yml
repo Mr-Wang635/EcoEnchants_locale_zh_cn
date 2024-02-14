@@ -1,0 +1,25 @@
+#
+# Curse of Fragility EcoEnchant
+
+config:
+  maximum-extra-durability: 8
+  minimum-extra-durability: 2
+description: 减少物品耐久
+enabled: true
+general-config:
+  conflicts:
+    - unbreaking
+  disabled-in-worlds: []
+  flags: []
+  grindstoneable: false
+  requirements:
+    list: []
+    not-met-lore: []
+  targets:
+    - all
+name: 脆弱诅咒
+obtaining:
+  loot: true
+  rarity: legendary
+  table: false
+  villager: true

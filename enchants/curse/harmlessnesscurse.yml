@@ -1,0 +1,24 @@
+#
+# Curse of Harmlessness EcoEnchant
+
+config:
+  chance-per-level: 15
+description: 有概率攻击不了
+enabled: true
+general-config:
+  conflicts: []
+  disabled-in-worlds: []
+  flags: []
+  grindstoneable: false
+  requirements:
+    list: []
+    not-met-lore: []
+  targets:
+    - sword
+    - axe
+name: 无害诅咒
+obtaining:
+  loot: true
+  rarity: legendary
+  table: false
+  villager: true

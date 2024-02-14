@@ -1,0 +1,28 @@
+#
+# Curse of Calling EcoEnchant
+
+config:
+  distance: 20
+  repeat-ticks: 20
+description: 激怒附近的生物
+enabled: true
+general-config:
+  conflicts:
+    - mending
+  disabled-in-worlds: []
+  flags: []
+  grindstoneable: false
+  requirements:
+    list: []
+    not-met-lore: []
+  targets:
+    - helmet
+    - chestplate
+    - leggings
+    - boots
+name: 仇恶诅咒
+obtaining:
+  loot: true
+  rarity: legendary
+  table: false
+  villager: true

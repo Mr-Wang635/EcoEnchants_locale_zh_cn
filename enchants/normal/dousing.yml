@@ -1,0 +1,30 @@
+#
+# Dousing EcoEnchant
+#
+
+name: "泡水"
+description: '&a%value%%&r 的几率熄灭方块上的火焰'
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: legendary
+
+general-config:
+  flags: []
+  targets:
+    - bow
+    - crossbow
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  requirements:
+    list: [ ]
+    not-met-lore: [ ]
+  conflicts:
+    - ignite
+  maximum-level: 8
+
+config:
+  chance-per-level: 12.5

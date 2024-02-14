@@ -1,0 +1,42 @@
+#
+# Clouds Artifact EcoEnchant
+
+config:
+  amount: 10
+  on-blocks:
+    - diamond_ore
+    - gold_ore
+    - lapis_ore
+    - redstone_ore
+    - iron_ore
+    - obsidian
+    - ancient_debris
+  particle-tick-delay: 2
+  radius: 1
+  radius-multiplier: 5
+  use-double-helix: false
+  y-delta: 0.07
+description: 生成云朵粒子
+enabled: true
+general-config:
+  conflicts: []
+  disabled-in-worlds: []
+  flags: []
+  grindstoneable: true
+  requirements:
+    list: []
+    not-met-lore: []
+  targets:
+    - pickaxe
+    - sword
+    - axe
+    - elytra
+    - bow
+    - crossbow
+    - trident
+name: 云朵粒子
+obtaining:
+  loot: true
+  rarity: epic
+  table: true
+  villager: true

@@ -1,0 +1,26 @@
+#
+# Curse of Decay EcoEnchant
+
+config:
+  multiplier: 1
+  repeat-ticks: 100
+description: 如果你没拿着物品，物品的耐久会自动消耗
+enabled: true
+general-config:
+  conflicts:
+    - mending
+    - repairing
+  disabled-in-worlds: []
+  flags: []
+  grindstoneable: true
+  requirements:
+    list: []
+    not-met-lore: []
+  targets:
+    - all
+name: 腐烂诅咒
+obtaining:
+  loot: true
+  rarity: legendary
+  table: false
+  villager: true

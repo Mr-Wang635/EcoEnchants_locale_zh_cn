@@ -1,0 +1,26 @@
+#
+# Curse of Breaklessness EcoEnchant
+
+config:
+  chance-per-level: 15
+description: 有概率阻止破坏方块
+enabled: true
+general-config:
+  conflicts: []
+  disabled-in-worlds: []
+  flags: []
+  grindstoneable: true
+  requirements:
+    list: []
+    not-met-lore: []
+  targets:
+    - pickaxe
+    - axe
+    - hoe
+    - shovel
+name: 无力诅咒
+obtaining:
+  loot: true
+  rarity: legendary
+  table: false
+  villager: true
